@@ -1,9 +1,5 @@
-Despa Diana-Alexandra 321CA
+Radix Tree
 
-Tema 1 - Radix Tree
-
-	Am dezvoltat tema pe baza scheletului de cod atasat enuntului, astfel, clasa Index este cea care contine metoda main.
-	
 Main
 	In metoda main, se citesc pe rand cuvintele din fisierele transmise ca parametri. Cele din primul fisier se insereaza in arbore, conform enuntului si tinandu-se cont de membrul static wordIndex al clasei, care pastreaza numarul de ordine al fiecarui cuvant in text. Prefixele din al doilea fisier sunt cautate, iar indicii frunzelor care apartin cuvintelor cu un anumit prefix sunt inserati in lista de solutii, definita ca membru static al clasei Index cu numele solutions.	
 	Pentru rezolvarea temei, am implementat clasele Node, RadixTree si StringOperations.
